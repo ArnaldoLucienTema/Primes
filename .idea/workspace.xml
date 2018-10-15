@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0212aeb6-3cf5-4f23-81ad-6b36f471928b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/primes-table/processor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/primes-table-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primes-table/processor.js" beforeDir="false" afterPath="$PROJECT_DIR$/primes-table/processor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/primes-table-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/primes-table-test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="primes-table-test.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="primes-table-test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/primes-table-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+            <state relative-caret-position="218">
+              <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="processor.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="processor.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/primes-table/processor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="650">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -62,8 +60,8 @@
       <list>
         <option value="$PROJECT_DIR$/tests/level1/primes-test.js" />
         <option value="$PROJECT_DIR$/tests/level1/primes-table-test.js" />
-        <option value="$PROJECT_DIR$/tests/primes-table-test.js" />
         <option value="$PROJECT_DIR$/primes-table/processor.js" />
+        <option value="$PROJECT_DIR$/tests/primes-table-test.js" />
       </list>
     </option>
   </component>
@@ -106,6 +104,11 @@
             <path>
               <item name="Primes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Primes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Primes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Primes" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Primes" type="b2602c69:ProjectViewProjectNode" />
@@ -226,12 +229,12 @@
       <option name="presentableId" value="Default" />
       <updated>1539635713510</updated>
       <workItem from="1539635724060" duration="260000" />
-      <workItem from="1539636332528" duration="6398000" />
+      <workItem from="1539636332528" duration="8648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6658000" />
+    <option name="totallyTimeSpent" value="8908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1920" height="1025" extended-state="0" />
@@ -283,17 +286,20 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/primes-table-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/primes-table/processor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="650">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/primes-table-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
         </state>
       </provider>
     </entry>

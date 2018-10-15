@@ -40,5 +40,20 @@ Service._generatePrimeArray = function (value) {
     return [[1, 1, 1], [1, 1, 1], [1, 1, 1]];
 };
 
+Service._isPrime = function (val) {
+    for (let i = 2, s = Math.sqrt(val); i <= s; i++) {
+        if (val % i === 0) {
+            return false;
+        }
+    }
+    return (val !== 1 && val !== 0)
+}
+
+Service._justPrimeValues = function (arr) {
+    for (let idx = 0; idx < arr.length; idx++)
+        if (!this._isPrime(arr[idx]))
+            return false;
+    return true;
+}
 
 module.exports = Service;
