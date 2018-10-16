@@ -6,9 +6,11 @@ router.get('/', function (req, res, next) {
 
     let n = parseInt(req.query.n);
 
-    let primes = primes_table._generatePrimeArray(n);
+    if ( n < 0 )
+        return res.render('error', {
+            message: 'Give it a try with a positive whole number.'});
 
-    console.log(primes);
+    let primes = primes_table._generatePrimeArray(n);
 
     res.render('primes', {primes: primes});
 });
