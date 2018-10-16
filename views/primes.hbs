@@ -1,0 +1,15 @@
+<h1>Primes table</h1>
+<p>My Primes table</p>
+
+
+<table>
+    {{#each primes}}
+    <tr>
+        {{#each this}}
+                <td>
+                    {{ this }} |
+                </td>
+        {{/each}}
+    </tr>
+    {{/each}}
+</table>
