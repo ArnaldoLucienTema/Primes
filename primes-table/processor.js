@@ -5,30 +5,22 @@ Service._getNextPrime = function (initial) {
     if (initial <= 1)
         return 2;
 
-    let isPrime = false;
-
-    for (let number = initial; number < 2 * initial; ++number) {
-        for (let i = 2, s = Math.sqrt(number); i <= s; i++) {
-            if (number % i === 0) {
-                isPrime = false;
-                break;
-            }
-            else
-                isPrime = true;
-        }
-        if (isPrime && number !== 1 && number !== 0)
-            return number;
+    for (let number = initial + 1; number < 2 * initial; ++number) {
+        if(this._isPrime(number)) return number;
     }
+
+    return 2;
 };
 
-Service._generatePrimeArray_V1 = function (value) {
+Service._generateStructureTwoWayArray = function (value) {
 
     let arr = [[0]];
 
     let current_prime = 1;
-    for (let number = 1; number <= value; ++number) {
+    for (let number = 1, idx = 0; number <= value; ++number, ++idx) {
         current_prime = this._getNextPrime(current_prime);
         arr.push([current_prime])
+        arr[0].push(current_prime);
     }
 
     return arr;
@@ -37,7 +29,16 @@ Service._generatePrimeArray_V1 = function (value) {
 
 Service._generatePrimeArray = function (value) {
 
-    return [[1, 1, 1], [1, 1, 1], [1, 1, 1]];
+    let arr = this._generateStructureTwoWayArray(value);
+
+    for (let i = 1; i < arr.length; i++) {
+        let m = arr[i][0];
+        for (let j = 1; j < arr[0].length; j++) {
+            arr[i][j] = m * arr[0][j];
+        }
+    }
+
+    return arr;
 };
 
 Service._isPrime = function (val) {
